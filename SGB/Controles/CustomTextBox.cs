@@ -154,7 +154,7 @@ namespace SGB.Controles
             }
 
             [Category("Aparência")]
-            public bool FixedText
+            public bool ReadOnly
             {
                 get
                 {

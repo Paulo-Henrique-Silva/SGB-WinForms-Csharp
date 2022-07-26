@@ -55,19 +55,55 @@
     <Compile Include="Controles\CustomTextBox.designer.cs">
       <DependentUpon>CustomTextBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login\FormsFilhos\F_EsqueciSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FormsFilhos\F_EsqueciSenha.Designer.cs">
+      <DependentUpon>F_EsqueciSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FormsFilhos\F_Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FormsFilhos\F_Sobre.Designer.cs">
+      <DependentUpon>F_Sobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\FormsFilhos\F_Entrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\FormsFilhos\F_Entrar.Designer.cs">
+      <DependentUpon>F_Entrar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login\F_Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login\F_Login.Designer.cs">
       <DependentUpon>F_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuPrincipal\F_MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal\F_MenuPrincipal.Designer.cs">
+      <DependentUpon>F_MenuPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controles\CustomTextBox.resx">
       <DependentUpon>CustomTextBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login\FormsFilhos\F_EsqueciSenha.resx">
+      <DependentUpon>F_EsqueciSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FormsFilhos\F_Sobre.resx">
+      <DependentUpon>F_Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\FormsFilhos\F_Entrar.resx">
+      <DependentUpon>F_Entrar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login\F_Login.resx">
       <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal\F_MenuPrincipal.resx">
+      <DependentUpon>F_MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -77,6 +113,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -92,7 +129,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MenuPrincipal\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
