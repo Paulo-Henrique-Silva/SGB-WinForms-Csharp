@@ -1,6 +1,6 @@
-﻿namespace SGB
+﻿namespace SGB.Login
 {
-    partial class Form1
+    partial class F_Login
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -30,13 +30,16 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // F_Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(759, 419);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.ClientSize = new System.Drawing.Size(1320, 689);
+            this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Name = "F_Login";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
