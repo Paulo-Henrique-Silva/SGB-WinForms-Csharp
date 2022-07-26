@@ -162,7 +162,7 @@
             this.customButton1.FlatAppearance.BorderSize = 0;
             this.customButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.customButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.customButton1.Location = new System.Drawing.Point(185, 454);
+            this.customButton1.Location = new System.Drawing.Point(185, 451);
             this.customButton1.Name = "customButton1";
             this.customButton1.Size = new System.Drawing.Size(171, 54);
             this.customButton1.TabIndex = 14;
@@ -176,7 +176,7 @@
             this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
-            this.linkLabel2.Location = new System.Drawing.Point(213, 523);
+            this.linkLabel2.Location = new System.Drawing.Point(213, 521);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(118, 21);
             this.linkLabel2.TabIndex = 15;

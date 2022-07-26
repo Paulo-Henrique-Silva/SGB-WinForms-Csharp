@@ -12,11 +12,13 @@ namespace SGB.Login
 {
     public partial class F_Login : Form
     {
+        public bool Logou { get; set; }
+
         /// <summary>
         /// Forma filho atual do formulário.
         /// </summary>
         private Form FormFilho = new Form();
-
+        
         public F_Login()
         {
             InitializeComponent();

@@ -16,7 +16,13 @@ namespace SGB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login.F_Login());
+
+            Login.F_Login login = new Login.F_Login();
+
+            Application.Run(login);
+
+            if (login.Logou)
+                Application.Run(new MenuPrincipal.F_MenuPrincipal());
         }
     }
 }
