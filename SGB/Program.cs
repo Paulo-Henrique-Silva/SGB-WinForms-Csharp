@@ -17,12 +17,20 @@ namespace SGB
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Login.F_Login login = new Login.F_Login();
+            Login.F_Login login;
+            Menu.F_MenuPrincipal menu;
 
-            Application.Run(login);
+            //Ciclo que permite que e o usuário deslogue e logue do software.
+            do
+            {
+                Application.Run(login = new Login.F_Login());
 
-            if (login.Logou)
-                Application.Run(new MenuPrincipal.F_MenuPrincipal());
+                menu = new Menu.F_MenuPrincipal();
+
+                if (login.Logou)
+                    Application.Run(menu);
+            }
+            while (menu.Deslogou);
         }
     }
 }

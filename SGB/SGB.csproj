@@ -79,10 +79,10 @@
     <Compile Include="Login\F_Login.Designer.cs">
       <DependentUpon>F_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuPrincipal\F_MenuPrincipal.cs">
+    <Compile Include="Menu\F_MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuPrincipal\F_MenuPrincipal.Designer.cs">
+    <Compile Include="Menu\F_MenuPrincipal.Designer.cs">
       <DependentUpon>F_MenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -102,7 +102,7 @@
     <EmbeddedResource Include="Login\F_Login.resx">
       <DependentUpon>F_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuPrincipal\F_MenuPrincipal.resx">
+    <EmbeddedResource Include="Menu\F_MenuPrincipal.resx">
       <DependentUpon>F_MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -129,6 +129,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Menu\FormsFilhos\" />
     <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
