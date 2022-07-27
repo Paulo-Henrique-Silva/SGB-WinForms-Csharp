@@ -12,7 +12,7 @@ namespace SGB.Login.FormsFilhos
 {
     public partial class F_Entrar : Form
     {
-        private F_Login formPai;
+        private readonly F_Login formPai;
 
         public F_Entrar(F_Login form)
         {
@@ -28,6 +28,12 @@ namespace SGB.Login.FormsFilhos
         private void Llb_Sobre_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             formPai.MudaFormFilho(new F_Sobre(formPai));
+        }
+
+        private void Btn_Entrar_Click(object sender, EventArgs e)
+        {
+            formPai.Logou = true;
+            formPai.Close();
         }
     }
 }

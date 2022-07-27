@@ -12,7 +12,7 @@ namespace SGB.Login.FormsFilhos
 {
     public partial class F_EsqueciSenha : Form
     {
-        private F_Login formPai;
+        private readonly F_Login formPai;
 
         public F_EsqueciSenha(F_Login form)
         {

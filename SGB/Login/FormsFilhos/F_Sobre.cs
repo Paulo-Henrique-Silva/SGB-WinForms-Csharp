@@ -12,7 +12,7 @@ namespace SGB.Login.FormsFilhos
 {
     public partial class F_Sobre : Form
     {
-        private F_Login formPai;
+        private readonly F_Login formPai;
 
         public F_Sobre(F_Login form)
         {

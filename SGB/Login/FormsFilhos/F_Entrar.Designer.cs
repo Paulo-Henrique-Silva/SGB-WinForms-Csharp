@@ -138,6 +138,7 @@
             this.Btn_Entrar.Text = "Entrar";
             this.Btn_Entrar.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Entrar.UseVisualStyleBackColor = false;
+            this.Btn_Entrar.Click += new System.EventHandler(this.Btn_Entrar_Click);
             // 
             // Tbx_Senha
             // 
@@ -189,6 +190,7 @@
             // 
             // F_Entrar
             // 
+            this.AcceptButton = this.Btn_Entrar;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
