@@ -92,15 +92,28 @@ namespace SGB.Controles
                 {
                     isPasswordChar = value;
                     if (!isPlaceholder)
-                        textBox1.UseSystemPasswordChar = value;
+                        Tbx_Principal.UseSystemPasswordChar = value;
                 }
             }
 
-            [Category("Aparência")]
+        [Category("Aparência")]
+        public bool UseSystemPasswordChar
+        {
+            get 
+            { 
+                return Tbx_Principal.UseSystemPasswordChar; 
+            }
+            set
+            {
+                Tbx_Principal.UseSystemPasswordChar = value;
+            }
+        }
+
+        [Category("Aparência")]
             public bool Multiline
             {
-                get { return textBox1.Multiline; }
-                set { textBox1.Multiline = value; }
+                get { return Tbx_Principal.Multiline; }
+                set { Tbx_Principal.Multiline = value; }
             }
 
             [Category("Aparência")]
@@ -110,7 +123,7 @@ namespace SGB.Controles
                 set
                 {
                     base.BackColor = value;
-                    textBox1.BackColor = value;
+                    Tbx_Principal.BackColor = value;
                 }
             }
 
@@ -121,7 +134,7 @@ namespace SGB.Controles
                 set
                 {
                     base.ForeColor = value;
-                    textBox1.ForeColor = value;
+                    Tbx_Principal.ForeColor = value;
                 }
             }
 
@@ -132,7 +145,7 @@ namespace SGB.Controles
                 set
                 {
                     base.Font = value;
-                    textBox1.Font = value;
+                    Tbx_Principal.Font = value;
                     if (this.DesignMode)
                         UpdateControlHeight();
                 }
@@ -144,11 +157,11 @@ namespace SGB.Controles
                 get
                 {
                     if (isPlaceholder) return "";
-                    else return textBox1.Text;
+                    else return Tbx_Principal.Text;
                 }
                 set
                 {
-                    textBox1.Text = value;
+                    Tbx_Principal.Text = value;
                     SetPlaceholder();
                 }
             }
@@ -158,11 +171,11 @@ namespace SGB.Controles
             {
                 get
                 {
-                    return textBox1.ReadOnly;
+                    return Tbx_Principal.ReadOnly;
                 }
                 set
                 {
-                    textBox1.ReadOnly = value;
+                    Tbx_Principal.ReadOnly = value;
                 }
             }
 
@@ -171,11 +184,11 @@ namespace SGB.Controles
             {
                 get
                 {
-                    return textBox1.MaxLength;
+                    return Tbx_Principal.MaxLength;
                 }
                 set
                 {
-                    textBox1.MaxLength = value;
+                    Tbx_Principal.MaxLength = value;
                 }
 
             }
@@ -202,7 +215,7 @@ namespace SGB.Controles
                 {
                     placeholderColor = value;
                     if (isPlaceholder)
-                        textBox1.ForeColor = value;
+                        Tbx_Principal.ForeColor = value;
                 }
             }
 
@@ -213,7 +226,7 @@ namespace SGB.Controles
                 set
                 {
                     placeholderText = value;
-                    textBox1.Text = "";
+                    Tbx_Principal.Text = "";
                     SetPlaceholder();
                 }
             }
@@ -296,13 +309,13 @@ namespace SGB.Controles
             #region -> Private methods
             private void SetPlaceholder()
             {
-                if (string.IsNullOrWhiteSpace(textBox1.Text) && placeholderText != "")
+                if (string.IsNullOrWhiteSpace(Tbx_Principal.Text) && placeholderText != "")
                 {
                     isPlaceholder = true;
-                    textBox1.Text = placeholderText;
-                    textBox1.ForeColor = placeholderColor;
+                    Tbx_Principal.Text = placeholderText;
+                    Tbx_Principal.ForeColor = placeholderColor;
                     if (isPasswordChar)
-                        textBox1.UseSystemPasswordChar = false;
+                        Tbx_Principal.UseSystemPasswordChar = false;
                 }
             }
             private void RemovePlaceholder()
@@ -310,10 +323,10 @@ namespace SGB.Controles
                 if (isPlaceholder && placeholderText != "")
                 {
                     isPlaceholder = false;
-                    textBox1.Text = "";
-                    textBox1.ForeColor = this.ForeColor;
+                    Tbx_Principal.Text = "";
+                    Tbx_Principal.ForeColor = this.ForeColor;
                     if (isPasswordChar)
-                        textBox1.UseSystemPasswordChar = true;
+                        Tbx_Principal.UseSystemPasswordChar = true;
                 }
             }
             private GraphicsPath GetFigurePath(Rectangle rect, int radius)
@@ -334,26 +347,26 @@ namespace SGB.Controles
                 GraphicsPath pathTxt;
                 if (Multiline)
                 {
-                    pathTxt = GetFigurePath(textBox1.ClientRectangle, borderRadius - borderSize);
-                    textBox1.Region = new Region(pathTxt);
+                    pathTxt = GetFigurePath(Tbx_Principal.ClientRectangle, borderRadius - borderSize);
+                    Tbx_Principal.Region = new Region(pathTxt);
                 }
                 else
                 {
-                    pathTxt = GetFigurePath(textBox1.ClientRectangle, borderSize * 2);
-                    textBox1.Region = new Region(pathTxt);
+                    pathTxt = GetFigurePath(Tbx_Principal.ClientRectangle, borderSize * 2);
+                    Tbx_Principal.Region = new Region(pathTxt);
                 }
                 pathTxt.Dispose();
             }
             private void UpdateControlHeight()
             {
-                if (textBox1.Multiline == false)
+                if (Tbx_Principal.Multiline == false)
                 {
                     int txtHeight = TextRenderer.MeasureText("Text", this.Font).Height + 1;
-                    textBox1.Multiline = true;
-                    textBox1.MinimumSize = new Size(0, txtHeight);
-                    textBox1.Multiline = false;
+                    Tbx_Principal.Multiline = true;
+                    Tbx_Principal.MinimumSize = new Size(0, txtHeight);
+                    Tbx_Principal.Multiline = false;
 
-                    this.Height = textBox1.Height + this.Padding.Top + this.Padding.Bottom;
+                    this.Height = Tbx_Principal.Height + this.Padding.Top + this.Padding.Bottom;
                 }
             }
             #endregion
