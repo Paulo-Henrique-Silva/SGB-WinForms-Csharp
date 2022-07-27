@@ -79,6 +79,72 @@
     <Compile Include="Login\F_Login.Designer.cs">
       <DependentUpon>F_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Livros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Livros.Designer.cs">
+      <DependentUpon>F_Livros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Autores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Autores.Designer.cs">
+      <DependentUpon>F_Autores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Editoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Editoras.Designer.cs">
+      <DependentUpon>F_Editoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Usuarios.Designer.cs">
+      <DependentUpon>F_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Estatisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Estatisticas.Designer.cs">
+      <DependentUpon>F_Estatisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Historico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Historico.Designer.cs">
+      <DependentUpon>F_Historico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Generos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Generos.Designer.cs">
+      <DependentUpon>F_Generos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Clientes.Designer.cs">
+      <DependentUpon>F_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Alugueis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Alugueis.Designer.cs">
+      <DependentUpon>F_Alugueis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Vendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Vendas.Designer.cs">
+      <DependentUpon>F_Vendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Conta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\F_Conta.Designer.cs">
+      <DependentUpon>F_Conta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu\F_MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +167,39 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login\F_Login.resx">
       <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Livros.resx">
+      <DependentUpon>F_Livros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Autores.resx">
+      <DependentUpon>F_Autores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Editoras.resx">
+      <DependentUpon>F_Editoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Usuarios.resx">
+      <DependentUpon>F_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Estatisticas.resx">
+      <DependentUpon>F_Estatisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Historico.resx">
+      <DependentUpon>F_Historico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Generos.resx">
+      <DependentUpon>F_Generos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Clientes.resx">
+      <DependentUpon>F_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Alugueis.resx">
+      <DependentUpon>F_Alugueis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Vendas.resx">
+      <DependentUpon>F_Vendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\F_Conta.resx">
+      <DependentUpon>F_Conta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\F_MenuPrincipal.resx">
       <DependentUpon>F_MenuPrincipal.cs</DependentUpon>
@@ -129,7 +228,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Menu\FormsFilhos\" />
     <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

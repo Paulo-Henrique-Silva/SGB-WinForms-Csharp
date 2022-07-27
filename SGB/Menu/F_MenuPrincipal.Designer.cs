@@ -176,6 +176,7 @@
             this.Btn_Historico.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Historico.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Historico.UseVisualStyleBackColor = false;
+            this.Btn_Historico.Click += new System.EventHandler(this.Btn_Historico_Click);
             // 
             // Btn_Estatisticas
             // 
@@ -200,6 +201,7 @@
             this.Btn_Estatisticas.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Estatisticas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Estatisticas.UseVisualStyleBackColor = false;
+            this.Btn_Estatisticas.Click += new System.EventHandler(this.Btn_Estatisticas_Click);
             // 
             // Btn_Usuarios
             // 
@@ -224,6 +226,7 @@
             this.Btn_Usuarios.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Usuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Usuarios.UseVisualStyleBackColor = false;
+            this.Btn_Usuarios.Click += new System.EventHandler(this.Btn_Usuarios_Click);
             // 
             // Btn_Generos
             // 
@@ -248,6 +251,7 @@
             this.Btn_Generos.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Generos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Generos.UseVisualStyleBackColor = false;
+            this.Btn_Generos.Click += new System.EventHandler(this.Btn_Generos_Click);
             // 
             // Btn_Editoras
             // 
@@ -272,6 +276,7 @@
             this.Btn_Editoras.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Editoras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Editoras.UseVisualStyleBackColor = false;
+            this.Btn_Editoras.Click += new System.EventHandler(this.Btn_Editoras_Click);
             // 
             // Btn_Autores
             // 
@@ -296,6 +301,7 @@
             this.Btn_Autores.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Autores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Autores.UseVisualStyleBackColor = false;
+            this.Btn_Autores.Click += new System.EventHandler(this.Btn_Autores_Click);
             // 
             // Btn_Marcas
             // 
@@ -320,6 +326,7 @@
             this.Btn_Marcas.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Marcas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Marcas.UseVisualStyleBackColor = false;
+            this.Btn_Marcas.Click += new System.EventHandler(this.Btn_Marcas_Click);
             // 
             // Btn_Clientes
             // 
@@ -344,6 +351,7 @@
             this.Btn_Clientes.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Clientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Clientes.UseVisualStyleBackColor = false;
+            this.Btn_Clientes.Click += new System.EventHandler(this.Btn_Clientes_Click);
             // 
             // Btn_Livros
             // 
@@ -368,6 +376,7 @@
             this.Btn_Livros.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Livros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Livros.UseVisualStyleBackColor = false;
+            this.Btn_Livros.Click += new System.EventHandler(this.Btn_Livros_Click);
             // 
             // Btn_Alugueis
             // 
@@ -392,6 +401,7 @@
             this.Btn_Alugueis.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Alugueis.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Alugueis.UseVisualStyleBackColor = false;
+            this.Btn_Alugueis.Click += new System.EventHandler(this.Btn_Alugueis_Click);
             // 
             // Btn_Vendas
             // 
@@ -416,6 +426,7 @@
             this.Btn_Vendas.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_Vendas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_Vendas.UseVisualStyleBackColor = false;
+            this.Btn_Vendas.Click += new System.EventHandler(this.Btn_Vendas_Click);
             // 
             // Btn_User
             // 
@@ -440,6 +451,7 @@
             this.Btn_User.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.Btn_User.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_User.UseVisualStyleBackColor = false;
+            this.Btn_User.Click += new System.EventHandler(this.Btn_User_Click);
             // 
             // Btn_Quebrar
             // 
