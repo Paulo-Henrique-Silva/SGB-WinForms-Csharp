@@ -12,9 +12,17 @@ namespace SGB.Login.FormsFilhos
 {
     public partial class F_EsqueciSenha : Form
     {
-        public F_EsqueciSenha()
+        private F_Login formPai;
+
+        public F_EsqueciSenha(F_Login form)
         {
             InitializeComponent();
+            formPai = form;
+        }
+
+        private void Llb_Voltar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            formPai.MudaFormFilho(new F_Entrar(formPai));
         }
     }
 }

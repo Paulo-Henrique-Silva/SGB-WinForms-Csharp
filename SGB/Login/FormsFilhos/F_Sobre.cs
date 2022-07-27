@@ -12,9 +12,17 @@ namespace SGB.Login.FormsFilhos
 {
     public partial class F_Sobre : Form
     {
-        public F_Sobre()
+        private F_Login formPai;
+
+        public F_Sobre(F_Login form)
         {
             InitializeComponent();
+            formPai = form;
+        }
+
+        private void Btn_Voltar_Click(object sender, EventArgs e)
+        {
+            formPai.MudaFormFilho(new F_Entrar(formPai));
         }
     }
 }

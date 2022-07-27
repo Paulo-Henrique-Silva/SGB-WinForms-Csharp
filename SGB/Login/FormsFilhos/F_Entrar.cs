@@ -12,9 +12,22 @@ namespace SGB.Login.FormsFilhos
 {
     public partial class F_Entrar : Form
     {
-        public F_Entrar()
+        private F_Login formPai;
+
+        public F_Entrar(F_Login form)
         {
             InitializeComponent();
+            formPai = form;
+        }
+
+        private void Llb_Esqueci_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            formPai.MudaFormFilho(new F_EsqueciSenha(formPai));
+        }
+
+        private void Llb_Sobre_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            formPai.MudaFormFilho(new F_Sobre(formPai));
         }
     }
 }

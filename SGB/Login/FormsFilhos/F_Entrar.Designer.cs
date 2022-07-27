@@ -29,161 +29,163 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Entrar));
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.customButton1 = new SGB.Controles.CustomButton();
-            this.customTextBox2 = new SGB.Controles.CustomTextBox();
-            this.customTextBox1 = new SGB.Controles.CustomTextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Llb_Esqueci = new System.Windows.Forms.LinkLabel();
+            this.Lbl_Senha = new System.Windows.Forms.Label();
+            this.Lbl_User = new System.Windows.Forms.Label();
+            this.Lbl_Titulo = new System.Windows.Forms.Label();
+            this.Pbx_Sgb = new System.Windows.Forms.PictureBox();
+            this.Llb_Sobre = new System.Windows.Forms.LinkLabel();
+            this.Btn_Entrar = new SGB.Controles.CustomButton();
+            this.Tbx_Senha = new SGB.Controles.CustomTextBox();
+            this.Tbx_User = new SGB.Controles.CustomTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Pbx_Sgb)).BeginInit();
             this.SuspendLayout();
             // 
-            // linkLabel1
+            // Llb_Esqueci
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
-            this.linkLabel1.Location = new System.Drawing.Point(345, 359);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(119, 21);
-            this.linkLabel1.TabIndex = 13;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Esqueci a senha";
-            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Llb_Esqueci.AutoSize = true;
+            this.Llb_Esqueci.BackColor = System.Drawing.Color.Transparent;
+            this.Llb_Esqueci.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Llb_Esqueci.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Llb_Esqueci.Location = new System.Drawing.Point(345, 359);
+            this.Llb_Esqueci.Name = "Llb_Esqueci";
+            this.Llb_Esqueci.Size = new System.Drawing.Size(119, 21);
+            this.Llb_Esqueci.TabIndex = 13;
+            this.Llb_Esqueci.TabStop = true;
+            this.Llb_Esqueci.Text = "Esqueci a senha";
+            this.Llb_Esqueci.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Llb_Esqueci.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Llb_Esqueci_LinkClicked);
             // 
-            // label3
+            // Lbl_Senha
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(60)))), ((int)(((byte)(66)))));
-            this.label3.Location = new System.Drawing.Point(110, 359);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 21);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Senha";
+            this.Lbl_Senha.AutoSize = true;
+            this.Lbl_Senha.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_Senha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Senha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(60)))), ((int)(((byte)(66)))));
+            this.Lbl_Senha.Location = new System.Drawing.Point(110, 359);
+            this.Lbl_Senha.Name = "Lbl_Senha";
+            this.Lbl_Senha.Size = new System.Drawing.Size(53, 21);
+            this.Lbl_Senha.TabIndex = 11;
+            this.Lbl_Senha.Text = "Senha";
             // 
-            // label2
+            // Lbl_User
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(60)))), ((int)(((byte)(66)))));
-            this.label2.Location = new System.Drawing.Point(110, 266);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 21);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Usuário";
+            this.Lbl_User.AutoSize = true;
+            this.Lbl_User.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_User.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_User.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(60)))), ((int)(((byte)(66)))));
+            this.Lbl_User.Location = new System.Drawing.Point(110, 266);
+            this.Lbl_User.Name = "Lbl_User";
+            this.Lbl_User.Size = new System.Drawing.Size(64, 21);
+            this.Lbl_User.TabIndex = 9;
+            this.Lbl_User.Text = "Usuário";
             // 
-            // label1
+            // Lbl_Titulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(60)))), ((int)(((byte)(66)))));
-            this.label1.Location = new System.Drawing.Point(109, 203);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(212, 30);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "ENTRAR NA CONTA";
+            this.Lbl_Titulo.AutoSize = true;
+            this.Lbl_Titulo.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_Titulo.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Titulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(60)))), ((int)(((byte)(66)))));
+            this.Lbl_Titulo.Location = new System.Drawing.Point(109, 203);
+            this.Lbl_Titulo.Name = "Lbl_Titulo";
+            this.Lbl_Titulo.Size = new System.Drawing.Size(212, 30);
+            this.Lbl_Titulo.TabIndex = 8;
+            this.Lbl_Titulo.Text = "ENTRAR NA CONTA";
             // 
-            // pictureBox1
+            // Pbx_Sgb
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(45, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(500, 200);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.Pbx_Sgb.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Pbx_Sgb.BackColor = System.Drawing.Color.Transparent;
+            this.Pbx_Sgb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Pbx_Sgb.Image = ((System.Drawing.Image)(resources.GetObject("Pbx_Sgb.Image")));
+            this.Pbx_Sgb.Location = new System.Drawing.Point(45, 0);
+            this.Pbx_Sgb.Name = "Pbx_Sgb";
+            this.Pbx_Sgb.Size = new System.Drawing.Size(500, 200);
+            this.Pbx_Sgb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Pbx_Sgb.TabIndex = 7;
+            this.Pbx_Sgb.TabStop = false;
             // 
-            // linkLabel2
+            // Llb_Sobre
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
-            this.linkLabel2.Location = new System.Drawing.Point(213, 521);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(118, 21);
-            this.linkLabel2.TabIndex = 15;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Sobre o projeto";
-            this.linkLabel2.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Llb_Sobre.AutoSize = true;
+            this.Llb_Sobre.BackColor = System.Drawing.Color.Transparent;
+            this.Llb_Sobre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Llb_Sobre.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Llb_Sobre.Location = new System.Drawing.Point(230, 520);
+            this.Llb_Sobre.Name = "Llb_Sobre";
+            this.Llb_Sobre.Size = new System.Drawing.Size(118, 21);
+            this.Llb_Sobre.TabIndex = 15;
+            this.Llb_Sobre.TabStop = true;
+            this.Llb_Sobre.Text = "Sobre o projeto";
+            this.Llb_Sobre.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Llb_Sobre.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Llb_Sobre_LinkClicked);
             // 
-            // customButton1
+            // Btn_Entrar
             // 
-            this.customButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
-            this.customButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
-            this.customButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.customButton1.BorderRadius = 5;
-            this.customButton1.BorderSize = 0;
-            this.customButton1.FlatAppearance.BorderSize = 0;
-            this.customButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customButton1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.customButton1.Location = new System.Drawing.Point(185, 451);
-            this.customButton1.Name = "customButton1";
-            this.customButton1.Size = new System.Drawing.Size(171, 54);
-            this.customButton1.TabIndex = 14;
-            this.customButton1.Text = "Entrar";
-            this.customButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.customButton1.UseVisualStyleBackColor = false;
+            this.Btn_Entrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Btn_Entrar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(45)))), ((int)(((byte)(80)))));
+            this.Btn_Entrar.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.Btn_Entrar.BorderRadius = 5;
+            this.Btn_Entrar.BorderSize = 0;
+            this.Btn_Entrar.FlatAppearance.BorderSize = 0;
+            this.Btn_Entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Entrar.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Entrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.Btn_Entrar.Location = new System.Drawing.Point(217, 458);
+            this.Btn_Entrar.Name = "Btn_Entrar";
+            this.Btn_Entrar.Size = new System.Drawing.Size(140, 42);
+            this.Btn_Entrar.TabIndex = 14;
+            this.Btn_Entrar.Text = "Entrar";
+            this.Btn_Entrar.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.Btn_Entrar.UseVisualStyleBackColor = false;
             // 
-            // customTextBox2
+            // Tbx_Senha
             // 
-            this.customTextBox2.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.customTextBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.customTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.customTextBox2.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.customTextBox2.BorderRadius = 5;
-            this.customTextBox2.BorderSize = 3;
-            this.customTextBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customTextBox2.Location = new System.Drawing.Point(114, 384);
-            this.customTextBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.customTextBox2.MaxLength = 32767;
-            this.customTextBox2.Multiline = false;
-            this.customTextBox2.Name = "customTextBox2";
-            this.customTextBox2.Padding = new System.Windows.Forms.Padding(10);
-            this.customTextBox2.PasswordChar = true;
-            this.customTextBox2.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.customTextBox2.PlaceholderText = "";
-            this.customTextBox2.ReadOnly = false;
-            this.customTextBox2.Size = new System.Drawing.Size(350, 42);
-            this.customTextBox2.TabIndex = 12;
-            this.customTextBox2.Texts = "";
-            this.customTextBox2.UnderlinedStyle = false;
+            this.Tbx_Senha.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.Tbx_Senha.BackColor = System.Drawing.SystemColors.Window;
+            this.Tbx_Senha.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.Tbx_Senha.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.Tbx_Senha.BorderRadius = 5;
+            this.Tbx_Senha.BorderSize = 3;
+            this.Tbx_Senha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_Senha.Location = new System.Drawing.Point(114, 384);
+            this.Tbx_Senha.Margin = new System.Windows.Forms.Padding(4);
+            this.Tbx_Senha.MaxLength = 32767;
+            this.Tbx_Senha.Multiline = false;
+            this.Tbx_Senha.Name = "Tbx_Senha";
+            this.Tbx_Senha.Padding = new System.Windows.Forms.Padding(10);
+            this.Tbx_Senha.PasswordChar = true;
+            this.Tbx_Senha.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.Tbx_Senha.PlaceholderText = "";
+            this.Tbx_Senha.ReadOnly = false;
+            this.Tbx_Senha.Size = new System.Drawing.Size(350, 42);
+            this.Tbx_Senha.TabIndex = 12;
+            this.Tbx_Senha.Texts = "";
+            this.Tbx_Senha.UnderlinedStyle = false;
             // 
-            // customTextBox1
+            // Tbx_User
             // 
-            this.customTextBox1.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.customTextBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.customTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
-            this.customTextBox1.BorderFocusColor = System.Drawing.Color.Red;
-            this.customTextBox1.BorderRadius = 5;
-            this.customTextBox1.BorderSize = 3;
-            this.customTextBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customTextBox1.Location = new System.Drawing.Point(114, 291);
-            this.customTextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.customTextBox1.MaxLength = 7;
-            this.customTextBox1.Multiline = false;
-            this.customTextBox1.Name = "customTextBox1";
-            this.customTextBox1.Padding = new System.Windows.Forms.Padding(10);
-            this.customTextBox1.PasswordChar = false;
-            this.customTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.customTextBox1.PlaceholderText = "";
-            this.customTextBox1.ReadOnly = false;
-            this.customTextBox1.Size = new System.Drawing.Size(350, 42);
-            this.customTextBox1.TabIndex = 10;
-            this.customTextBox1.Texts = "";
-            this.customTextBox1.UnderlinedStyle = false;
+            this.Tbx_User.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.Tbx_User.BackColor = System.Drawing.SystemColors.Window;
+            this.Tbx_User.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(209)))), ((int)(((byte)(209)))));
+            this.Tbx_User.BorderFocusColor = System.Drawing.Color.Red;
+            this.Tbx_User.BorderRadius = 5;
+            this.Tbx_User.BorderSize = 3;
+            this.Tbx_User.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tbx_User.Location = new System.Drawing.Point(114, 291);
+            this.Tbx_User.Margin = new System.Windows.Forms.Padding(4);
+            this.Tbx_User.MaxLength = 7;
+            this.Tbx_User.Multiline = false;
+            this.Tbx_User.Name = "Tbx_User";
+            this.Tbx_User.Padding = new System.Windows.Forms.Padding(10);
+            this.Tbx_User.PasswordChar = false;
+            this.Tbx_User.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.Tbx_User.PlaceholderText = "";
+            this.Tbx_User.ReadOnly = false;
+            this.Tbx_User.Size = new System.Drawing.Size(350, 42);
+            this.Tbx_User.TabIndex = 10;
+            this.Tbx_User.Texts = "";
+            this.Tbx_User.UnderlinedStyle = false;
             // 
             // F_Entrar
             // 
@@ -192,15 +194,15 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(570, 560);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.customButton1);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.customTextBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.customTextBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Llb_Sobre);
+            this.Controls.Add(this.Btn_Entrar);
+            this.Controls.Add(this.Llb_Esqueci);
+            this.Controls.Add(this.Tbx_Senha);
+            this.Controls.Add(this.Lbl_Senha);
+            this.Controls.Add(this.Tbx_User);
+            this.Controls.Add(this.Lbl_User);
+            this.Controls.Add(this.Lbl_Titulo);
+            this.Controls.Add(this.Pbx_Sgb);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(60)))), ((int)(((byte)(66)))));
@@ -209,7 +211,7 @@
             this.Name = "F_Entrar";
             this.ShowIcon = false;
             this.Text = "F_Entrar";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pbx_Sgb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,14 +219,14 @@
 
         #endregion
 
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private Controles.CustomTextBox customTextBox2;
-        private System.Windows.Forms.Label label3;
-        private Controles.CustomTextBox customTextBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private Controles.CustomButton customButton1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel Llb_Esqueci;
+        private Controles.CustomTextBox Tbx_Senha;
+        private System.Windows.Forms.Label Lbl_Senha;
+        private Controles.CustomTextBox Tbx_User;
+        private System.Windows.Forms.Label Lbl_User;
+        private System.Windows.Forms.Label Lbl_Titulo;
+        private System.Windows.Forms.PictureBox Pbx_Sgb;
+        private Controles.CustomButton Btn_Entrar;
+        private System.Windows.Forms.LinkLabel Llb_Sobre;
     }
 }
