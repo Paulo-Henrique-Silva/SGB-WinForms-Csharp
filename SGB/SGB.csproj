@@ -33,6 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -84,6 +93,12 @@
     </Compile>
     <Compile Include="Login\F_Login.Designer.cs">
       <DependentUpon>F_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\Conta\F_AlterarSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\FormsFilhos\Conta\F_AlterarSenha.Designer.cs">
+      <DependentUpon>F_AlterarSenha.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu\FormsFilhos\F_Livros.cs">
       <SubType>Form</SubType>
@@ -145,11 +160,11 @@
     <Compile Include="Menu\FormsFilhos\F_Vendas.Designer.cs">
       <DependentUpon>F_Vendas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu\FormsFilhos\F_Conta.cs">
+    <Compile Include="Menu\FormsFilhos\Conta\F_DadosConta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu\FormsFilhos\F_Conta.Designer.cs">
-      <DependentUpon>F_Conta.cs</DependentUpon>
+    <Compile Include="Menu\FormsFilhos\Conta\F_DadosConta.Designer.cs">
+      <DependentUpon>F_DadosConta.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu\F_MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -176,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login\F_Login.resx">
       <DependentUpon>F_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\FormsFilhos\Conta\F_AlterarSenha.resx">
+      <DependentUpon>F_AlterarSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\FormsFilhos\F_Livros.resx">
       <DependentUpon>F_Livros.cs</DependentUpon>
@@ -207,8 +225,8 @@
     <EmbeddedResource Include="Menu\FormsFilhos\F_Vendas.resx">
       <DependentUpon>F_Vendas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu\FormsFilhos\F_Conta.resx">
-      <DependentUpon>F_Conta.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\FormsFilhos\Conta\F_DadosConta.resx">
+      <DependentUpon>F_DadosConta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\F_MenuPrincipal.resx">
       <DependentUpon>F_MenuPrincipal.cs</DependentUpon>
@@ -223,6 +241,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

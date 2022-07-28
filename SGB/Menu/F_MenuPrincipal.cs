@@ -31,7 +31,7 @@ namespace SGB.Menu
 
         private void Btn_User_Click(object sender, EventArgs e)
         {
-            MudaFormFilho(new FormsFilhos.F_Conta(string.Empty));
+            MudaFormFilho(new FormsFilhos.Conta.F_DadosConta(this));
         }
 
         private void Btn_Clientes_Click(object sender, EventArgs e)
@@ -119,7 +119,7 @@ namespace SGB.Menu
             }
         }
 
-        private void MudaFormFilho(Form form)
+        public void MudaFormFilho(Form form)
         {
             if (FormFilho.GetType() != form.GetType())
             {
