@@ -113,7 +113,7 @@ namespace SGB.Menu
             }
             else if (Btn_Quebrar.Text == ">")
             {
-                Stc_Principal.SplitterDistance = Btn_Quebrar.Width + Pbx_Logo.Width;
+                Stc_Principal.SplitterDistance = Btn_Quebrar.Width + 252;
                 Stc_Lateral.Panel1Collapsed = false;
                 Btn_Quebrar.Text = "<";
             }
