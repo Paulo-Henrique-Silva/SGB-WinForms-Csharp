@@ -49,12 +49,6 @@
     <Compile Include="Controles\CustomButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controles\CustomGroupBox.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Controles\CustomGroupBox.Designer.cs">
-      <DependentUpon>CustomGroupBox.cs</DependentUpon>
-    </Compile>
     <Compile Include="Controles\CustomMaskedTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -165,9 +159,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Controles\CustomGroupBox.resx">
-      <DependentUpon>CustomGroupBox.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Controles\CustomMaskedTextBox.resx">
       <DependentUpon>CustomMaskedTextBox.cs</DependentUpon>
     </EmbeddedResource>

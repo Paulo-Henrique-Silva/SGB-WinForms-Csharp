@@ -71,6 +71,7 @@
             this.Stc_Principal.Panel1.Controls.Add(this.Stc_Lateral);
             this.Stc_Principal.Size = new System.Drawing.Size(1320, 689);
             this.Stc_Principal.SplitterDistance = 300;
+            this.Stc_Principal.SplitterWidth = 1;
             this.Stc_Principal.TabIndex = 0;
             // 
             // Stc_Lateral

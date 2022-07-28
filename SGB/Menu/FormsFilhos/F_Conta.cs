@@ -18,6 +18,8 @@ namespace SGB.Menu.FormsFilhos
         {
             InitializeComponent();
             usuario = user;
+            
+            
         }
     }
 }
